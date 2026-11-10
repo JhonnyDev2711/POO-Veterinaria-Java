@@ -35,7 +35,7 @@ CONCEPTOS QUE SE PRACTICAN
 
 RESULTADO ESPERADO
 
-El programa muestra la ficha de Max como perro domestico y Luna como perro rescatista, ambos utilizan los metodos heredados y ejecutan sus acciones correspodnientes.
+El programa muestra la ficha de Max como perro domestico y Luna como perro rescatista, ambos utilizan los metodos heredados y ejecutan sus acciones correspondientes.
 
 Max puede mostrar su ficha, ladrar, saludar a su dueño y cumplir años.
 
