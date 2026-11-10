@@ -1,29 +1,44 @@
+
 public class Perro {
-    // Aqui guardamos los datos que tiene cada perro.
+
+    // Estos son los datos que comparten todos los perros.
     private String nombre;
     private String raza;
     private int edad;
 
-    // Este constructor recibe los datos y los deja guardados en el perro nuevo.
+    // El constructor recibe los datos y prepara al perro.
     public Perro(String nombre, String raza, int edad) {
         this.nombre = nombre;
         this.raza = raza;
         this.edad = edad;
     }
 
-    // Mostramos la informacion del perro en la consola.
+    // Estos metodos permiten consultar los datos privados.
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getRaza() {
+        return raza;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    // Mostramos la informacion general del perro.
     public void mostrarFicha() {
         System.out.println("Nombre: " + nombre);
         System.out.println("Raza: " + raza);
         System.out.println("Edad: " + edad + " años");
     }
 
-    // Simulamos que el perro esta ladrando.
+    // Simulamos un ladrido.
     public void ladrar() {
         System.out.println(nombre + " dice: Guau, guau!");
     }
 
-    // Cada vez que llamamos este metodo, le sumamos un año.
+    // Cada vez que llamamos este metodo, aumenta su edad.
     public void cumplirAnios() {
         edad++;
         System.out.println(nombre + " ahora tiene " + edad + " años.");
