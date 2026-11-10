@@ -15,7 +15,7 @@ public class Perro {
     public void mostrarFicha() {
         System.out.println("Nombre: " + nombre);
         System.out.println("Raza: " + raza);
-        System.out.println("Edad: " + edad + " anios");
+        System.out.println("Edad: " + edad + " años");
     }
 
     // Simulamos que el perro esta ladrando.
@@ -23,9 +23,9 @@ public class Perro {
         System.out.println(nombre + " dice: Guau, guau!");
     }
 
-    // Cada vez que llamamos este metodo, le sumamos un anio.
+    // Cada vez que llamamos este metodo, le sumamos un año.
     public void cumplirAnios() {
         edad++;
-        System.out.println(nombre + " ahora tiene " + edad + " anios.");
+        System.out.println(nombre + " ahora tiene " + edad + " años.");
     }
 }
